@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="05-Grup315-01">
+		<CBX_INST_ENTRY INSTANCE_NAME="|UC|lpm_mux1:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_33e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UC|rom:inst7|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vq71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|UC|sequencer:inst11|lpm_mux0:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_a3e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

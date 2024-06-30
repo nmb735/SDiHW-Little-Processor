@@ -1,0 +1,338 @@
+Simulator report for 05-Grup315-01
+Fri Dec 02 13:04:32 2022
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 5.0 us       ;
+; Simulation Netlist Size     ; 104 nodes    ;
+; Simulation Coverage         ;      76.69 % ;
+; Total Number of Transitions ; 1363         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C35F672C6 ;
++-----------------------------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                          ;
++--------------------------------------------------------------------------------------------+----------------+---------------+
+; Option                                                                                     ; Setting        ; Default Value ;
++--------------------------------------------------------------------------------------------+----------------+---------------+
+; Simulation mode                                                                            ; Timing         ; Timing        ;
+; Start time                                                                                 ; 0 ns           ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF           ;               ;
+; Vector input source                                                                        ; UCofficial.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On             ; On            ;
+; Check outputs                                                                              ; Off            ; Off           ;
+; Report simulation coverage                                                                 ; On             ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On             ; On            ;
+; Display missing 1-value coverage report                                                    ; On             ; On            ;
+; Display missing 0-value coverage report                                                    ; On             ; On            ;
+; Detect setup and hold time violations                                                      ; Off            ; Off           ;
+; Detect glitches                                                                            ; Off            ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off            ; Off           ;
+; Generate Signal Activity File                                                              ; Off            ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off            ; Off           ;
+; Group bus channels in simulation results                                                   ; Off            ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On             ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE     ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off            ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off            ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto           ; Auto          ;
++--------------------------------------------------------------------------------------------+----------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++-----------------------------------------------------------------------------------------+
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ALTSYNCRAM ;
++-----------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      76.69 % ;
+; Total nodes checked                                 ; 104          ;
+; Total output ports checked                          ; 133          ;
+; Total output ports with complete 1/0-value coverage ; 102          ;
+; Total output ports with no 1/0-value coverage       ; 27           ;
+; Total output ports with no 1-value coverage         ; 27           ;
+; Total output ports with no 0-value coverage         ; 31           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                      ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                             ; Output Port Name                                                                                      ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[2]                   ; portadataout0    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[3]                   ; portadataout1    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[4]                   ; portadataout2    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[5]                   ; portadataout3    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[6]                   ; portadataout4    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[7]                   ; portadataout5    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[8]                   ; portadataout6    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[9]                   ; portadataout7    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[10]                  ; portadataout8    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[11]                  ; portadataout9    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[13]                  ; portadataout11   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[14]                  ; portadataout12   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[15]                  ; portadataout13   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[16]                  ; portadataout14   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[18]                  ; portadataout16   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[19]                  ; portadataout17   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[1]                   ; portadataout1    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[20]                  ; portadataout2    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[21]                  ; portadataout3    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[22]                  ; portadataout4    ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[0]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[0]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[1]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[1]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[2]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[2]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[3]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[3]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[4]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[4]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[0]~8                                                             ; |UC|sequencer:inst11|MicroPC:mPC|mPC[0]~8                                                             ; combout          ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[0]~8                                                             ; |UC|sequencer:inst11|MicroPC:mPC|mPC[0]~9                                                             ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[1]~10                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[1]~10                                                            ; combout          ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[1]~10                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[1]~11                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[2]~12                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[2]~12                                                            ; combout          ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[2]~12                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[2]~13                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[3]~14                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[3]~14                                                            ; combout          ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[3]~14                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[3]~15                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[4]~16                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[4]~16                                                            ; combout          ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[4]~16                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[4]~17                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]~18                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]~18                                                            ; combout          ;
+; |UC|inst5[19]                                                                                         ; |UC|inst5[19]                                                                                         ; combout          ;
+; |UC|inst5[18]                                                                                         ; |UC|inst5[18]                                                                                         ; combout          ;
+; |UC|inst5[16]                                                                                         ; |UC|inst5[16]                                                                                         ; combout          ;
+; |UC|inst5[15]                                                                                         ; |UC|inst5[15]                                                                                         ; combout          ;
+; |UC|inst5[14]                                                                                         ; |UC|inst5[14]                                                                                         ; combout          ;
+; |UC|inst5[13]                                                                                         ; |UC|inst5[13]                                                                                         ; combout          ;
+; |UC|inst5[11]                                                                                         ; |UC|inst5[11]                                                                                         ; combout          ;
+; |UC|inst5[10]                                                                                         ; |UC|inst5[10]                                                                                         ; combout          ;
+; |UC|inst5[9]                                                                                          ; |UC|inst5[9]                                                                                          ; combout          ;
+; |UC|inst5[8]                                                                                          ; |UC|inst5[8]                                                                                          ; combout          ;
+; |UC|inst5[7]                                                                                          ; |UC|inst5[7]                                                                                          ; combout          ;
+; |UC|inst5[6]                                                                                          ; |UC|inst5[6]                                                                                          ; combout          ;
+; |UC|inst5[5]                                                                                          ; |UC|inst5[5]                                                                                          ; combout          ;
+; |UC|inst5[4]                                                                                          ; |UC|inst5[4]                                                                                          ; combout          ;
+; |UC|inst5[3]                                                                                          ; |UC|inst5[3]                                                                                          ; combout          ;
+; |UC|inst5[2]                                                                                          ; |UC|inst5[2]                                                                                          ; combout          ;
+; |UC|inst5[1]                                                                                          ; |UC|inst5[1]                                                                                          ; combout          ;
+; |UC|ctrlSeq:inst9|_W2                                                                                 ; |UC|ctrlSeq:inst9|_W2                                                                                 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[0]~16 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[0]~16 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[0]~17 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[0]~17 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[1]~18 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[1]~18 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[2]~19 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[2]~19 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[3]~20 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[3]~20 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[4]~21 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[4]~21 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[5]~22 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[5]~22 ; combout          ;
+; |UC|IRdecoder:inst|initAddress[0]                                                                     ; |UC|IRdecoder:inst|initAddress[0]                                                                     ; combout          ;
+; |UC|lpm_mux1:inst3|lpm_mux:lpm_mux_component|mux_33e:auto_generated|result_node[0]~2                  ; |UC|lpm_mux1:inst3|lpm_mux:lpm_mux_component|mux_33e:auto_generated|result_node[0]~2                  ; combout          ;
+; |UC|lpm_mux1:inst3|lpm_mux:lpm_mux_component|mux_33e:auto_generated|result_node[0]~3                  ; |UC|lpm_mux1:inst3|lpm_mux:lpm_mux_component|mux_33e:auto_generated|result_node[0]~3                  ; combout          ;
+; |UC|ctrlSeq:inst9|_W1                                                                                 ; |UC|ctrlSeq:inst9|_W1                                                                                 ; combout          ;
+; |UC|ctrlSeq:inst9|_W3                                                                                 ; |UC|ctrlSeq:inst9|_W3                                                                                 ; combout          ;
+; |UC|IRdecoder:inst|initAddress[1]                                                                     ; |UC|IRdecoder:inst|initAddress[1]                                                                     ; combout          ;
+; |UC|IRdecoder:inst|initAddress[2]                                                                     ; |UC|IRdecoder:inst|initAddress[2]                                                                     ; combout          ;
+; |UC|IRdecoder:inst|initAddress[3]                                                                     ; |UC|IRdecoder:inst|initAddress[3]                                                                     ; combout          ;
+; |UC|IRdecoder:inst|initAddress[4]                                                                     ; |UC|IRdecoder:inst|initAddress[4]                                                                     ; combout          ;
+; |UC|IRdecoder:inst|initAddress[5]                                                                     ; |UC|IRdecoder:inst|initAddress[5]                                                                     ; combout          ;
+; |UC|_T[1]                                                                                             ; |UC|_T[1]                                                                                             ; combout          ;
+; |UC|_T[0]                                                                                             ; |UC|_T[0]                                                                                             ; combout          ;
+; |UC|_jumpAddress[1]                                                                                   ; |UC|_jumpAddress[1]                                                                                   ; combout          ;
+; |UC|_jumpAddress[2]                                                                                   ; |UC|_jumpAddress[2]                                                                                   ; combout          ;
+; |UC|_jumpAddress[3]                                                                                   ; |UC|_jumpAddress[3]                                                                                   ; combout          ;
+; |UC|_jumpAddress[4]                                                                                   ; |UC|_jumpAddress[4]                                                                                   ; combout          ;
+; |UC|_jumpAddress[6]                                                                                   ; |UC|_jumpAddress[6]                                                                                   ; combout          ;
+; |UC|_jumpAddress[7]                                                                                   ; |UC|_jumpAddress[7]                                                                                   ; combout          ;
+; |UC|_sel[0]                                                                                           ; |UC|_sel[0]                                                                                           ; combout          ;
+; |UC|control_signals_to_UP[19]                                                                         ; |UC|control_signals_to_UP[19]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[18]                                                                         ; |UC|control_signals_to_UP[18]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[16]                                                                         ; |UC|control_signals_to_UP[16]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[15]                                                                         ; |UC|control_signals_to_UP[15]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[14]                                                                         ; |UC|control_signals_to_UP[14]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[13]                                                                         ; |UC|control_signals_to_UP[13]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[11]                                                                         ; |UC|control_signals_to_UP[11]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[10]                                                                         ; |UC|control_signals_to_UP[10]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[9]                                                                          ; |UC|control_signals_to_UP[9]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[8]                                                                          ; |UC|control_signals_to_UP[8]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[7]                                                                          ; |UC|control_signals_to_UP[7]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[6]                                                                          ; |UC|control_signals_to_UP[6]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[5]                                                                          ; |UC|control_signals_to_UP[5]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[4]                                                                          ; |UC|control_signals_to_UP[4]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[3]                                                                          ; |UC|control_signals_to_UP[3]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[2]                                                                          ; |UC|control_signals_to_UP[2]                                                                          ; padio            ;
+; |UC|control_signals_to_UP[1]                                                                          ; |UC|control_signals_to_UP[1]                                                                          ; padio            ;
+; |UC|ck                                                                                                ; |UC|ck~corein                                                                                         ; combout          ;
+; |UC|opcode[1]                                                                                         ; |UC|opcode[1]~corein                                                                                  ; combout          ;
+; |UC|zero                                                                                              ; |UC|zero~corein                                                                                       ; combout          ;
+; |UC|start                                                                                             ; |UC|start~corein                                                                                      ; combout          ;
+; |UC|ck~clkctrl                                                                                        ; |UC|ck~clkctrl                                                                                        ; outclk           ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                         ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                             ; Output Port Name                                                                                      ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[12]                  ; portadataout10   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[17]                  ; portadataout15   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[0]                   ; portadataout0    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[23]                  ; portadataout5    ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]~18                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]~19                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~20                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~20                                                            ; combout          ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~20                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~21                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]~22                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]~22                                                            ; combout          ;
+; |UC|inst5[17]                                                                                         ; |UC|inst5[17]                                                                                         ; combout          ;
+; |UC|inst5[12]                                                                                         ; |UC|inst5[12]                                                                                         ; combout          ;
+; |UC|inst5[0]                                                                                          ; |UC|inst5[0]                                                                                          ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[6]~23 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[6]~23 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[7]~24 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[7]~24 ; combout          ;
+; |UC|_jumpAddress[0]                                                                                   ; |UC|_jumpAddress[0]                                                                                   ; combout          ;
+; |UC|_jumpAddress[5]                                                                                   ; |UC|_jumpAddress[5]                                                                                   ; combout          ;
+; |UC|IRdecoder:inst|initAddress[6]                                                                     ; |UC|IRdecoder:inst|initAddress[6]                                                                     ; combout          ;
+; |UC|IRdecoder:inst|initAddress[7]                                                                     ; |UC|IRdecoder:inst|initAddress[7]                                                                     ; combout          ;
+; |UC|_sel[1]                                                                                           ; |UC|_sel[1]                                                                                           ; combout          ;
+; |UC|control_signals_to_UP[17]                                                                         ; |UC|control_signals_to_UP[17]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[12]                                                                         ; |UC|control_signals_to_UP[12]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[0]                                                                          ; |UC|control_signals_to_UP[0]                                                                          ; padio            ;
+; |UC|carry                                                                                             ; |UC|carry~corein                                                                                      ; combout          ;
+; |UC|negative                                                                                          ; |UC|negative~corein                                                                                   ; combout          ;
+; |UC|opcode[3]                                                                                         ; |UC|opcode[3]~corein                                                                                  ; combout          ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                         ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                             ; Output Port Name                                                                                      ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[12]                  ; portadataout10   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a2             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[17]                  ; portadataout15   ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[0]                   ; portadataout0    ;
+; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|ram_block1a0             ; |UC|rom:inst7|altsyncram:altsyncram_component|altsyncram_vq71:auto_generated|q_a[23]                  ; portadataout5    ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]                                                               ; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]                                                               ; regout           ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]~18                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[5]~19                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~20                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~20                                                            ; combout          ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~20                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[6]~21                                                            ; cout             ;
+; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]~22                                                            ; |UC|sequencer:inst11|MicroPC:mPC|mPC[7]~22                                                            ; combout          ;
+; |UC|inst5[17]                                                                                         ; |UC|inst5[17]                                                                                         ; combout          ;
+; |UC|inst5[12]                                                                                         ; |UC|inst5[12]                                                                                         ; combout          ;
+; |UC|inst5[0]                                                                                          ; |UC|inst5[0]                                                                                          ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[6]~23 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[6]~23 ; combout          ;
+; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[7]~24 ; |UC|sequencer:inst11|lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_a3e:auto_generated|result_node[7]~24 ; combout          ;
+; |UC|_jumpAddress[0]                                                                                   ; |UC|_jumpAddress[0]                                                                                   ; combout          ;
+; |UC|_jumpAddress[5]                                                                                   ; |UC|_jumpAddress[5]                                                                                   ; combout          ;
+; |UC|IRdecoder:inst|initAddress[6]                                                                     ; |UC|IRdecoder:inst|initAddress[6]                                                                     ; combout          ;
+; |UC|IRdecoder:inst|initAddress[7]                                                                     ; |UC|IRdecoder:inst|initAddress[7]                                                                     ; combout          ;
+; |UC|_sel[1]                                                                                           ; |UC|_sel[1]                                                                                           ; combout          ;
+; |UC|control_signals_to_UP[17]                                                                         ; |UC|control_signals_to_UP[17]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[12]                                                                         ; |UC|control_signals_to_UP[12]                                                                         ; padio            ;
+; |UC|control_signals_to_UP[0]                                                                          ; |UC|control_signals_to_UP[0]                                                                          ; padio            ;
+; |UC|asynResetn                                                                                        ; |UC|asynResetn~corein                                                                                 ; combout          ;
+; |UC|opcode[2]                                                                                         ; |UC|opcode[2]~corein                                                                                  ; combout          ;
+; |UC|opcode[0]                                                                                         ; |UC|opcode[0]~corein                                                                                  ; combout          ;
+; |UC|carry                                                                                             ; |UC|carry~corein                                                                                      ; combout          ;
+; |UC|negative                                                                                          ; |UC|negative~corein                                                                                   ; combout          ;
+; |UC|opcode[3]                                                                                         ; |UC|opcode[3]~corein                                                                                  ; combout          ;
+; |UC|asynResetn~clkctrl                                                                                ; |UC|asynResetn~clkctrl                                                                                ; outclk           ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Fri Dec 02 13:04:31 2022
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off 05-Grup315-01 -c 05-Grup315-01
+Info: Using vector source file "C:/Users/nedal/OneDrive/Escritorio/Practica05/UCofficial.vwf"
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[7]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[6]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[5]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[4]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[3]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[2]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[1]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "sequencer:inst11|inc:inst2|A_plus[0]" in design.
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      76.69 %
+Info: Number of transitions in simulation is 1363
+Info: Quartus II Simulator was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 166 megabytes
+    Info: Processing ended: Fri Dec 02 13:04:32 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
